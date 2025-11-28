@@ -1,3 +1,44 @@
 * {
   background-color: white;
+  font-family: 'Montserrat';
+}
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.service-card img {
+    margin-bottom: 15px;
+}
+.img{
+  height: 200px;
+  width: 250px;
+  /* border: 2px black solid; */
+  background-color: #fff;
 }
