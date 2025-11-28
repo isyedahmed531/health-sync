@@ -6,26 +6,45 @@
 }
 /* Contact Section */
 .contactSection{
-  width: 100%;
+  width: 100vw;
   margin: 10px 0;
+  gap: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .contactInputContainer{
-  padding: 10px 40px;
-  margin: 0 10px;
+  width: 60vw;
+  padding: 60px 50px 50px 40px;
+  margin: 0;
+  display: grid;
+  align-items: start;
+  row-gap: 15px;
   background-color: var(--background-color);
+  border-radius: 10px;
+}
+.contactInputContainer label span{
+  color: red;
+
 }
 .contactInputContainer .inputs{
   height: 45px;
   width: 100%;
   font-size: 25px;
-  padding: 2px 8px;
+  padding: 5px 8px;
   outline: none;
   border: 2px solid #373737;
   border-radius: 5px;
+}
+.contactInputContainer button{
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
 }
 
 @media (max-width: 768px) {
