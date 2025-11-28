@@ -1,3 +1,6 @@
+:root{
+  --background-color: rgb(217, 235, 238);
+}
 *{
   font-family: "montserrat", sans-serif;
 }
@@ -11,10 +14,23 @@
   flex-direction: column;
 }
 .contactInputContainer{
-  padding: 0 30px;
-
+  padding: 10px 40px;
+  margin: 0 10px;
+  background-color: var(--background-color);
 }
 .contactInputContainer .inputs{
   height: 45px;
   width: 100%;
+  font-size: 25px;
+  padding: 2px 8px;
+  outline: none;
+  border: 2px solid #373737;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .contactInputContainer .inputs{
+    height: 25px;
+    font-size: 15px;
+  }
 }
