@@ -1,3 +1,67 @@
+:root {
+  --background-color: rgb(217, 235, 238);
+}
+* {
+  font-family: "montserrat", sans-serif;
+}
+/* Contact Section */
+.contactSection {
+  width: 100vw;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactInputContainer {
+  width: 60vw;
+  padding: 60px 50px 50px 40px;
+  margin: 0px;
+  display: grid;
+  align-items: start;
+  row-gap: 15px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+.contactInputContainer label span {
+  color: red;
+}
+.contactInputContainer .inputs {
+  height: 45px;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px 8px;
+  outline: none;
+  border: 2px solid #373737;
+  border-radius: 5px;
+}
+.contactInputContainer textarea {
+  resize: none;
+}
+.contactInputContainer button {
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+}
+.contactInputContainer button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contactInputContainer .inputs {
+    height: 25px;
+    font-size: 15px;
+  }
+  .contactInputContainer button {
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
