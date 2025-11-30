@@ -11,7 +11,7 @@ body {
 
 /* Navbar */
 header {
-    background-color: #1b262c;
+    background-color: #ffffff;
     padding: 25px 0;
     position: sticky;
     top: 0;
@@ -38,23 +38,23 @@ nav ul li {
     margin-left: 20px;
 }
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 650;
     transition: 0.3s;
 }
 nav ul li a:hover {
-    color: #ffd500;
+    color: #0685b8;
 }
 
-/* Hero */
+
 .hero {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
-    background-color:#4fa1db;
+    background: linear-gradient(to right, #40ceb6, #6aa738);
 }
 .hero-text {
     flex: 1;
