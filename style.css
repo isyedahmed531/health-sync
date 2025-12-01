@@ -45,3 +45,12 @@
   right: 15px;
   color: rgb(11, 114, 114);
 }
+.srvheadingcont{
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 20px;
+   color: green;
+}
