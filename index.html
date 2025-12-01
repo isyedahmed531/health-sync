@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Health Sync</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <!-- Contact Section -->
+     <section class="contactSection">
+      <h1>Contact</h1>
+       <form id="contactForm">
+        <div class="contactContainer">
+          <label for="contactInputName">Name <span>*</span></label>
+          <input type="text" class="contactInput" id="contactInputName" placeholder="Enter name" required>
+          <label for="contactInputEmail">Email <span>*</span></label>
+          <input type="email" class="contactInput" id="contactInputEmail" placeholder="Enter email" required>
+          <label for="contactInputMessage">Message <span>*</span></label>
+          <pre>(max length = 250 characters)</pre>
+          <textarea class="contactInput" id="contactInputMessage" placeholder="Enter message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+       </form>
+     </section>
+  </body>
 </html>
