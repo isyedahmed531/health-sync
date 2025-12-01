@@ -1,0 +1,73 @@
+.contactSection{
+    height: 550px;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactHeading{
+    color: green;
+}
+.contactContainer{
+    width: 90vw;
+    padding: 20px 35px;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+.contactContainer label{
+    color: #242424;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: "Montserrat";
+}
+.contactContainer label span{
+    color: lightcoral;
+}
+.contactContainer textarea{
+    height: 70px;
+    resize: none;
+}
+.contactInputs{
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #242424;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.contactInputs:focus{
+    border: 2px solid #ffb700;
+}
+.contactButtonSubmit{
+    height: 35px;
+    width: 150px;
+    margin: 10px 0px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.contactButtonSubmit:hover{
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .contactContainer{
+        width: 80vw;
+    }
+    .contactContainer label{
+        font-size: 12px;
+    }
+    .contactInput{
+        height: 30px;
+        font-size: 15px;
+    }
+    .contactButtonSubmit{
+        width: 100px;
+    }
+}
