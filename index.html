@@ -597,5 +597,39 @@
         </ul>
       </section>
     </section>
+    <section class="contactSection">
+      <h1 class="contactHeading">Contact</h1>
+      <form>
+        <div class="contactContainer">
+          <label for="contactInputName">Name <span>*</span></label>
+          <input
+            type="text"
+            class="contactInputs"
+            id="contactInputName"
+            placeholder="Enter name"
+            required
+          />
+          <label for="contactInputEmail">Email <span>*</span></label>
+          <input
+            type="email"
+            class="contactInputs"
+            id="contactInputEmail"
+            placeholder="Enter email"
+            required
+          />
+          <label for="contactInputMessage"
+            >Message <span>*</span> (max length = 250 characters)</label
+          >
+          <textarea
+            class="contactInputs"
+            id="contactInputMessage"
+            maxlength="250"
+            placeholder="Enter message"
+            required
+          ></textarea>
+          <button type="submit" class="contactButtonSubmit">Submit</button>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
