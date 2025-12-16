@@ -13,18 +13,19 @@
   </head>
   <body>
     <header>
-      <div class="container nav-container">
-        <div class="logo">
-          <img
+      <div class="container nav-container" style="display: flex; flex-wrap: wrap;  ">
+        <div class="logo" style="display: flex; justify-content: center;">
+          <img style="text-align: center;"
             src="https://www.healthsync.lk/wp-content/uploads/2025/08/healthsync_logo.png"
             height="80"
             width="200"
             alt="Healthsync Logo"
           />
         </div>
-        <nav>
-          <ul>
+        <nav style="display: flex;">
+          <ul style="display: flex; flex-wrap: wrap; justify-content:center; gap: 10px;">
             <li><a href="#home">Home</a></li>
+
             <li><a href="#service">Service</a></li>
             <li><a href="#products">Medicines</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -39,7 +40,7 @@
           Your health, our priority. Get genuine medicines and essential care
           products delivered safely to your home.
         </p>
-        <a href="#products" class="btn">Explore Products</a>
+       <button class="btn">Explore More</button>
       </div>
       <div class="hero-image">
         <img
@@ -50,9 +51,9 @@
     </section>
     <section>
       <div class="srvheadingcont">
-        <h1>Our Services</h1>
+        <h2>Our Services</h2>
       </div>
-
+      <div class="parenttsrvcont">
       <div class="srvcontainer">
         <div class="Service">
           <div class="srvimgcont">
@@ -85,8 +86,7 @@
             <li class="srvlist">Home Blood Test Services</li>
           </ul>
           <p>
-            Professional phlebotomists visit your home for blood samples and
-            other tests. Get accurate results online within 24 hours. No more
+            Professional phlebotomists visit your home for blood Tests. Get accurate results online within 24 hours. No more
             lab visits or long queues
           </p>
         </div>
@@ -104,9 +104,9 @@
             <li class="srvlist">Virtual Doctor Appointments</li>
           </ul>
           <p>
-            Consult certified doctors via video call from home. Get
+            Consult certified doctors via video call from home. 24/7 Available,  Get
             prescriptions, medical advice, and follow-up care without stepping
-            out. Available 24/7 for your convenience.
+            out.
           </p>
         </div>
 
@@ -148,7 +148,9 @@
           </p>
         </div>
       </div>
+      </div>
     </section>
+
     <section>
       <h1 class="heading">
         Featured Products <i class="fa-solid fa-heart-pulse"></i>
@@ -159,7 +161,7 @@
           <!-- 1) BRUFEN -->
           <li class="product-card">
             <span class="off-tag">10% off</span>
-            <figure class="image-area">
+            <figure class="image-area" style="box-sizing: border-box;">
               <img src="https://i.ibb.co/PGMZhYY3/brufen.png" alt="Brufen" />
             </figure>
             <article class="info">
@@ -597,6 +599,7 @@
         </ul>
       </section>
     </section>
+
     <section class="contactSection">
       <h1 class="contactHeading">Contact</h1>
       <form>
@@ -632,17 +635,7 @@
       </form>
     </section>
     <footer
-      class="main-footer"
-      style="
-        background-color: black;
-        text-align: center;
-        color: white;
-        font-weight: 200px;
-        padding: 20;
-        @media (max-width: 765px);
-        flex-direction: column;
-      "
-    >
+      class="main-footer">
       <p>Copyright 2025 Healthsync. All Right Infinity Developers.</p>
     </footer>
   </body>
