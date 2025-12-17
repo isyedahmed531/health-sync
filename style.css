@@ -12,16 +12,18 @@ body {
 
 header {
   background-color: #ffffff;
-  padding: 25px 0;
+  padding: 5px;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 .nav-container {
   display: flex;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
   width: 90%;
+  /* border: 2px solid black; */
   max-width: 1200px;
   margin: auto;
 }
@@ -99,13 +101,13 @@ nav ul li a:hover {
 .heading {
   color: green;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .card-category {
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   padding-left: 10px;
   border-left: 10px solid green;
 }
@@ -318,6 +320,7 @@ button.cart-btn:hover {
   color: rgb(11, 114, 114);
 }
 .srvheadingcont {
+  margin-top: 20px;
   display: flex;
   font-size: 23px;
   justify-content: center;
@@ -338,10 +341,12 @@ button.cart-btn:hover {
 }
 .contactHeading {
   color: green;
+  margin-top: 20px;
 }
 .contactContainer {
   width: 90vw;
   padding: 30px;
+  margin-top: 15px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -407,6 +412,21 @@ button.cart-btn:hover {
   .contactButtonSubmit {
     width: 100px;
   }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nav-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .srvcontainer{
+    width: 100%;
+    padding: 20px;
+  }
+ 
 }
 .main-footer{
    background-color: black;
